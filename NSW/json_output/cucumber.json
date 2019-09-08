@@ -1,0 +1,123 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-08T18:01:23.299Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3209564681,
+              "status": "passed"
+            },
+            "match": {
+              "location": "NSWInfo.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Matching Service Centre in a Suburb",
+        "description": "",
+        "id": "apply-for-a-number-plate;matching-service-centre-in-a-suburb;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 228506380,
+              "status": "passed"
+            },
+            "match": {
+              "location": "NSWInfo.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3792965597,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to NSW website",
+            "match": {
+              "location": "NSWInfo.i_navigate_to_nsw_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2696078665,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I apply for number plate",
+            "match": {
+              "location": "NSWInfo.i_apply_for_number_plate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2731037300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I land at Apply for a number plate page correctly",
+            "match": {
+              "location": "NSWInfo.i_land_at_apply_for_a_number_plate_page_correctly()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3928176257,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter the Sydney 2000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sydney 2000",
+                  "offset": 12
+                }
+              ],
+              "location": "NSWInfo.i_enter_the(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 551711906,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I find correct Haymarket Service Centre",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Haymarket Service Centre",
+                  "offset": 15
+                }
+              ],
+              "location": "NSWInfo.i_find_correct(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      }
+    ],
+    "name": "Apply for a number plate",
+    "description": "",
+    "id": "apply-for-a-number-plate",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/nswNumberPlate.feature",
+    "tags": []
+  }
+]
