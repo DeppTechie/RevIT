@@ -16,7 +16,7 @@ public class GetForecastDailyTests {
 	
 	 protected HashMap<String,Object> params = new HashMap<>();
 
-	    @Test
+	//    @Test
 	    public void getForecast(){
 	    	SetUp a_key=new SetUp();
 
